@@ -1,0 +1,82 @@
+.others-screens{
+  display: flex;
+  height: 300px;
+}
+
+.main-head{
+  padding: 0;
+}
+
+.top-navigation{
+  top: 0;
+  width: 100%;
+  padding: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #43b2db;
+  position: fixed;
+  z-index: 1;
+}
+
+.top-navigation .nav{
+  display: block;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 30px;
+}
+
+main{
+  z-index: 2;
+}
+
+.nav a{
+  width: auto;
+}
+
+.nav a:hover,
+.active{
+  text-transform: uppercase;
+  color: #000;
+  background: none;
+}
+
+.big-title{
+  font-size: 2rem;
+  margin-top: 80px;
+  padding-top: 30pw;
+}
+
+.article{
+  height: 350px;
+}
+
+.article .article-text{
+  padding: 10px;
+}
+
+.lasts{
+  height: 350px;
+}
+
+.lasts article{
+  width: 100%;
+  height: 50%;
+}
+
+.desktop{
+  display: none;
+}
+
+.testimonials{
+  text-align: center;
+  width: 90%;
+  height: auto;
+  display: block;
+  padding: 20px 0;
+}
+
+.testimonials-content{
+  flex-direction: column;
+}
